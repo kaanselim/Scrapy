@@ -13,7 +13,9 @@ BOT_NAME = 'Scrapy'
 
 SPIDER_MODULES = ['Scrapy.spiders']
 NEWSPIDER_MODULE = 'Scrapy.spiders'
-
+#Export as CSV Feed
+FEED_FORMAT = "csv"
+FEED_URI = "sozluk.csv"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Scrapy (+http://www.yourdomain.com)'
